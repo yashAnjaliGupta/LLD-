@@ -50,7 +50,7 @@ new TimstampDecorator(
         new SimpleNotification("Order Delivered"),
         "tomato"
     )
-);
+);```
 
 This allows runtime enhancement like:
 
