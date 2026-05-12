@@ -41,19 +41,6 @@ Used to dynamically enhance notifications without modifying existing classes.
 - `TimstampDecorator`
 - `SignatureDecorator`
 
-### Example
-
-```cpp
-INotification* notification =
-new TimstampDecorator(
-    new SignatureDecorator(
-        new SimpleNotification("Order Delivered"),
-        "tomato"
-    )
-);
-
-This allows runtime enhancement like:
-
 Order Delivered tomato 12/12/2001
 ### 2. Observer Pattern
 
